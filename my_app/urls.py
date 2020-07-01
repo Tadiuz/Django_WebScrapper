@@ -6,6 +6,7 @@ from . import views
 #If someone goes to the main home it will call the method home of the file view
 urlpatterns = [
     path('', views.home, name = 'home'),
+    path('new_search', views.new_search, name = 'new_search'),
 ]
 
 
