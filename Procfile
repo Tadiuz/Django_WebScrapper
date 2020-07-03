@@ -1,1 +1,1 @@
-'web: gunicorn WEB_SCRAPPER.wsgi --log-file -' 
+'web: gunicorn web_scrapper.wsgi --log-file -' 
